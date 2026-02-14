@@ -100,22 +100,28 @@ src/main/java/com/airtribe/meditrack/
 
 ### Compilation
 
-1. **Create the output directory**:
-   ```bash
-   mkdir bin
-   ```
+**Windows Users** (Easiest Method):
+```bash
+.\compile.bat
+```
 
-2. **Compile all Java files**:
-   ```bash
-   # Windows PowerShell
-   javac -d bin -sourcepath src\main\java src\main\java\com\airtribe\meditrack\*.java src\main\java\com\airtribe\meditrack\constants\*.java src\main\java\com\airtribe\meditrack\entity\*.java src\main\java\com\airtribe\meditrack\exception\*.java src\main\java\com\airtribe\meditrack\interfaces\*.java src\main\java\com\airtribe\meditrack\service\*.java src\main\java\com\airtribe\meditrack\util\*.java src\main\java\com\airtribe\meditrack\test\*.java
+**Manual Compilation** (All Platforms):
+```bash
+# Windows PowerShell
+javac -d bin -sourcepath src\main\java src\main\java\com\airtribe\meditrack\*.java src\main\java\com\airtribe\meditrack\constants\*.java src\main\java\com\airtribe\meditrack\entity\*.java src\main\java\com\airtribe\meditrack\exception\*.java src\main\java\com\airtribe\meditrack\interfaces\*.java src\main\java\com\airtribe\meditrack\service\*.java src\main\java\com\airtribe\meditrack\util\*.java src\main\java\com\airtribe\meditrack\test\*.java
 
-   # macOS/Linux
-   javac -d bin -sourcepath src/main/java src/main/java/com/airtribe/meditrack/*.java src/main/java/com/airtribe/meditrack/constants/*.java src/main/java/com/airtribe/meditrack/entity/*.java src/main/java/com/airtribe/meditrack/exception/*.java src/main/java/com/airtribe/meditrack/interfaces/*.java src/main/java/com/airtribe/meditrack/service/*.java src/main/java/com/airtribe/meditrack/util/*.java src/main/java/com/airtribe/meditrack/test/*.java
-   ```
+# macOS/Linux
+javac -d bin -sourcepath src/main/java src/main/java/com/airtribe/meditrack/*.java src/main/java/com/airtribe/meditrack/constants/*.java src/main/java/com/airtribe/meditrack/entity/*.java src/main/java/com/airtribe/meditrack/exception/*.java src/main/java/com/airtribe/meditrack/interfaces/*.java src/main/java/com/airtribe/meditrack/service/*.java src/main/java/com/airtribe/meditrack/util/*.java src/main/java/com/airtribe/meditrack/test/*.java
+```
 
 ### Running the Application
 
+**Windows Users** (Easiest Method):
+```bash
+.\run.bat
+```
+
+**Manual Execution** (All Platforms):
 ```bash
 # Run the main application
 java -cp bin com.airtribe.meditrack.Main
@@ -126,8 +132,13 @@ java -cp bin com.airtribe.meditrack.Main --loadData
 
 ### Running Tests
 
+**Windows Users**:
 ```bash
-# Run the test suite
+.\test.bat
+```
+
+**All Platforms**:
+```bash
 java -cp bin com.airtribe.meditrack.test.TestRunner
 ```
 

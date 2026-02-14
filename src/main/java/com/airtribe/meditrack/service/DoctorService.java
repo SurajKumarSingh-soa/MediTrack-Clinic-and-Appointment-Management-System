@@ -8,7 +8,6 @@ import com.airtribe.meditrack.interfaces.Searchable;
 import com.airtribe.meditrack.util.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

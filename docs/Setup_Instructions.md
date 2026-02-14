@@ -42,7 +42,7 @@ javac -version
 
 Expected output should show Java version 11 or higher.
 
-**Screenshot Placeholder**: [Screenshot of java -version output]
+![Java Version Verification](file:///c:/Users/Subhojit/OneDrive/Desktop/MediTrack/docs/java_version_screenshot.png)
 
 ## Step 3: Compile the Project
 
