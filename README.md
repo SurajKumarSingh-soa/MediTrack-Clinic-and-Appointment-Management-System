@@ -1,5 +1,7 @@
 # MediTrack — Clinic & Appointment Management System
 
+**Assignment Submission - Final Version**
+
 A comprehensive, object-oriented **Clinic & Appointment Management System** built in Core Java. MediTrack demonstrates best practices in OOP design, SOLID principles, modern Java features (Streams, Lambdas), design patterns, and more.
 
 ---
@@ -260,7 +262,7 @@ Use menu options 7 (Save) and 8 (Load) to persist and restore data.
 
 ## 👥 Contributors
 
-- **Your Name** - [GitHub](https://github.com/yourusername)
+- **Suraj Kumar Singh** - [GitHub](https://github.com/SurajKumarSingh-soa)
 
 ---
 
@@ -279,3 +281,5 @@ This project is created for educational purposes as part of the Airtribe Java me
 ---
 
 **Built with ❤️ using Core Java**
+
+**Submission Date:** February 2026
