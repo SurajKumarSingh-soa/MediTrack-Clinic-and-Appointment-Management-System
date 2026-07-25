@@ -8,6 +8,7 @@ import com.airtribe.meditrack.interfaces.Searchable;
 import com.airtribe.meditrack.util.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
  * - Java 8 Streams
  * - Implements Searchable interface
  */
+
 public class DoctorService implements Searchable<Doctor> {
 
     private final DataStore<Doctor> doctorStore;

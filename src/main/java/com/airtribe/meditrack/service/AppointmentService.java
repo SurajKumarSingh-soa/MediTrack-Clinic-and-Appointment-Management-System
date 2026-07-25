@@ -153,9 +153,7 @@ public class AppointmentService {
 
     // ========== BILLING (Strategy Pattern & Payable Interface) ==========
 
-    /**
-     * Generate bill for appointment
-     */
+    
     public Bill generateBill(int appointmentId, double additionalCharges, boolean isEmergency)
             throws AppointmentNotFoundException {
         Appointment appointment = getAppointmentById(appointmentId);
